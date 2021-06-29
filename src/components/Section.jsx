@@ -3,9 +3,9 @@ import "../css/Section.css"
 
 const Section = ()=>{
     return(
-<div>
-<section className="py-5 header text-center text-white mt-5 container-fluid" id="hero">
-    <div className="container py-5 text-white">
+<div className="">
+<section className="py-5 header text-center text-white mt-5 container-fluid bg-dark bg-gradient" id="hero">
+    <div className="container align-items-center text-white">
             <header className="py-5 my-lg-5">
             <div className="row centered">
             <div className="col-lg-12">
