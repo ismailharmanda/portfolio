@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = (props)=>{
     return(
-        <div>
-        <header className="header fixed-top">
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow-sm py-3">
-        <div className="container d-flex justify-content-md-center">
+        <div className="">
+        <header className=" header fixed-top p-0 m-0">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark shadow-sm py-3 justify-content-md-center">
+        <div className="">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
