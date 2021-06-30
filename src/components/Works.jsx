@@ -15,7 +15,7 @@ const Works = () => {
           </div>
         </div>
         <div className="d-flex row align-items-center justify-content-around">
-          <div className="col-md-6 col-12">
+          <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
               <a
                 href="https://clone-youtube-app.vercel.app/"
@@ -31,7 +31,7 @@ const Works = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-12">
+          <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
               <a href="https://widgets-ismail.vercel.app/" alt="Widgets App">
                 <img src={widgets} className="card-img-top" alt="..." />
