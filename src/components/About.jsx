@@ -21,7 +21,7 @@ const About = () => {
               <div className="col-lg-3 justify-content-center text-center">
                 <embed
                   src="https://docdro.id/bnfgb2j"
-                  width="300px"
+                  width="315px"
                   height="400px"
                 />
               </div>
