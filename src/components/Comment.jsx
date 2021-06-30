@@ -23,9 +23,13 @@ const Comment = (props) => {
       return (
         <div key={index}>
           <div className="row align-items-center">
-            <div className="col-10 bg-light text-dark comment mt-4 text-justify float-left">
+            <div className="p-3 col-10 bg-light text-dark comment mt-4 text-justify float-left">
               <h4>
-                Name: {comment.name} Email: {comment.email}
+                <i className="fa fa-user text-secondary"></i> {comment.name}
+                {"    "}
+                <i className="fa fa-envelope text-secondary"></i>
+                {"    "}
+                {comment.email}
               </h4>
               <br />
               <p>{comment.message}</p>
@@ -44,7 +48,7 @@ const Comment = (props) => {
       );
     });
   return (
-    <div id="comments" className="row bg-dark text-light">
+    <div id="comments" className="p-5 row bg-dark text-light">
       <div className="col-md-6">{allComments}</div>
       <div className="col-md-6">
         <section className="">
@@ -55,7 +59,7 @@ const Comment = (props) => {
             id="algin-form"
           >
             <div className="form-group">
-              <h4>Leave a comment</h4> <label for="message">Message</label>{" "}
+              <h4>Leave a comment</h4> <label htmlFor="message">Message</label>{" "}
               <textarea
                 onChange={(e) =>
                   setText({
