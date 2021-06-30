@@ -18,7 +18,7 @@ const About = () => {
                   learning and improving.
                 </p>
               </div>
-              <div className="col-lg-3 justify-content.center">
+              <div className="col-lg-3 justify-content-center text-center">
                 <embed
                   src="https://docdro.id/bnfgb2j"
                   width="300px"
