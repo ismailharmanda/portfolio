@@ -62,6 +62,7 @@ const Footer = () => {
                         <i className="fa fa-phone fa-2x"> Call Me</i>
                       </a>
                     </li>
+                    <br />
                     <li>
                       <a name="email" href="mailto:iharmanda@hotmail.com">
                         <i className="fa fa-envelope fa-2x"> E-mail</i>

@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = (props) => {
+  const [navbarList, SetNavbarList] = useState({
+    aboutMe: "",
+    work: "",
+    comment: "",
+    contact: "",
+  });
+  const changeLinkContent = () => {
+    if (navbarList.aboutMe === "") {
+      SetNavbarList({
+        aboutMe: "About Me",
+        work: "My Works",
+        comment: "Comments",
+        contact: "Contact",
+      });
+    } else {
+      SetNavbarList({
+        aboutMe: "",
+        work: "",
+        comment: "",
+        contact: "",
+      });
+    }
+  };
   return (
     <div className="">
       <header className=" header fixed-top p-0 m-0">
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark shadow-sm py-3 justify-content-sm-center">
           <div className="">
             <button
+              onClick={changeLinkContent}
               className="navbar-toggler navbar-toggler-right"
               type="button"
               data-bs-toggle="collapse"
@@ -29,7 +53,7 @@ const Navbar = (props) => {
                     title="About Me"
                     href="#aboutme"
                   >
-                    <i className="fa fa-user fa-3x"></i>
+                    <i className="fa fa-user fa-3x"> {navbarList.aboutMe}</i>
                     <span className="sr-only"></span>
                   </a>
                 </li>
@@ -39,7 +63,7 @@ const Navbar = (props) => {
                     title="Works"
                     href="#works"
                   >
-                    <i className="fa fa-briefcase fa-3x"></i>
+                    <i className="fa fa-briefcase fa-3x"> {navbarList.work}</i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -48,7 +72,10 @@ const Navbar = (props) => {
                     title="Comments"
                     href="#comments"
                   >
-                    <i className="fa fa-comments fa-3x"></i>
+                    <i className="fa fa-comments fa-3x">
+                      {" "}
+                      {navbarList.comment}
+                    </i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -57,7 +84,10 @@ const Navbar = (props) => {
                     title="Contact"
                     href="#contact"
                   >
-                    <i className="fa fa-envelope fa-3x"></i>
+                    <i className="fa fa-envelope fa-3x">
+                      {" "}
+                      {navbarList.contact}
+                    </i>
                   </a>
                 </li>
               </ul>
