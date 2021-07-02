@@ -59,13 +59,17 @@ const Footer = () => {
                   <ul className=" p-4 list-unstyled">
                     <li>
                       <a name="call me" href="tel:+905325243011">
-                        <i className="fa fa-phone fa-2x"> Call Me</i>
+                        <i className="fa fa-phone fa-2x">
+                          &nbsp;&nbsp; Call Me
+                        </i>
                       </a>
                     </li>
                     <br />
                     <li>
                       <a name="email" href="mailto:iharmanda@hotmail.com">
-                        <i className="fa fa-envelope fa-2x"> E-mail</i>
+                        <i className="fa fa-envelope fa-2x">
+                          &nbsp;&nbsp;&nbsp; E-mail
+                        </i>
                       </a>
                     </li>
                   </ul>
@@ -82,9 +86,17 @@ const Footer = () => {
                       <i className="fab fa-linkedin fa-3x"></i>
                     </a>
                   </li>
-                  <li className="list-inline-item">
+                  <li className="p-3 list-inline-item">
                     <a title="GitHub" href="https://github.com/ismailharmanda">
                       <i className="fab fa-github fa-3x"></i>
+                    </a>
+                  </li>
+                  <li className="p-3 list-inline-item">
+                    <a
+                      title="Twitter"
+                      href="https://twitter.com/ismail_harmanda"
+                    >
+                      <i className="fab fa-twitter fa-3x"></i>
                     </a>
                   </li>
                 </ul>
