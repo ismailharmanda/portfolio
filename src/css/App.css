@@ -1,9 +1,9 @@
 #root {
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
 }
 #aboutme {
-    background-color: rgb(0, 131, 143);
-    color:white;
-    font-weight: 600;
+  background-color: rgb(0, 131, 143);
+  color: white;
+  font-weight: 600;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import youtubeClone from "../img/youtube-clone.png";
-import widgets from "../img/widgets.png";
+import youtubeClone from "../img/youtubegif.gif";
+import widgets from "../img/widgetsgif.gif";
 
 const Works = () => {
   return (
