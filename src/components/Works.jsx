@@ -1,6 +1,6 @@
 import React from "react";
 import youtubeclone from "../img/youtubeclone.gif";
-import widgets from "../img/widgetsgif.gif";
+import widgets from "../img/widgets.gif";
 import expenses from "../img/Expenses.gif";
 import serdanismanlik from "../img/serdanismanlik.gif";
 
