@@ -1,5 +1,5 @@
 import React from "react";
-import youtubeClone from "../img/youtubegif.gif";
+import youtubeclone from "../img/youtubeclone.gif";
 import widgets from "../img/widgetsgif.gif";
 import expenses from "../img/Expenses.gif";
 import serdanismanlik from "../img/serdanismanlik.gif";
@@ -47,7 +47,7 @@ const Works = () => {
                 alt="Youtube Clone App"
               >
                 <img
-                  src={youtubeClone}
+                  src={youtubeclone}
                   className="card-img-top"
                   alt="youtube clone"
                 />
