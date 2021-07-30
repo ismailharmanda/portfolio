@@ -1,6 +1,8 @@
 import React from "react";
 import youtubeClone from "../img/youtubegif.gif";
 import widgets from "../img/widgetsgif.gif";
+import expenses from "../img/Expenses.gif";
+import serdanismanlik from "../img/serdanismanlik.gif";
 
 const Works = () => {
   return (
@@ -17,11 +19,31 @@ const Works = () => {
         <div className="d-flex row align-items-center justify-content-around">
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
+              <a href="https://case-ser.netlify.app/" alt="Ser Danışmanlık">
+                <img
+                  src={serdanismanlik}
+                  className="card-img-top"
+                  alt="Ser Danışmanlık"
+                />
+              </a>
+              <div className="card-body">
+                <p className="card-text text-center">
+                  An introductory page I made for a corporate company.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="p-1 col-md-6 col-12">
+            <div className="card text-dark fw-bold">
               <a
                 href="https://clone-youtube-app.vercel.app/"
                 alt="Youtube Clone App"
               >
-                <img src={youtubeClone} className="card-img-top" alt="..." />
+                <img
+                  src={youtubeClone}
+                  className="card-img-top"
+                  alt="youtube clone"
+                />
               </a>
               <div className="card-body">
                 <p className="card-text text-center">
@@ -34,12 +56,24 @@ const Works = () => {
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
               <a href="https://widgets-ismail.vercel.app/" alt="Widgets App">
-                <img src={widgets} className="card-img-top" alt="..." />
+                <img src={widgets} className="card-img-top" alt="widgets" />
               </a>
               <div className="card-body">
                 <p className="card-text text-center">
                   A website which has been made via React with various widgets
-                  in it. (Translate works with only localhost:3000)
+                  in it. (Translate works with only lh:3000)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="p-1 col-md-6 col-12">
+            <div className="card text-dark fw-bold">
+              <a href="https://expensess.netlify.app/" alt="Expenses App">
+                <img src={expenses} className="card-img-top" alt="..." />
+              </a>
+              <div className="card-body">
+                <p className="card-text text-center">
+                  An application to keep track of spending expenses via React.js
                 </p>
               </div>
             </div>
