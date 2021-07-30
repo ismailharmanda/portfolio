@@ -14,6 +14,18 @@ const Footer = () => {
                   <ul className="p-4 list-unstyled">
                     <li>
                       <a
+                        rel="noreferrer"
+                        target="_blank"
+                        name="Introductory Page"
+                        href="https://case-ser.netlify.app/"
+                      >
+                        Introductory Page
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
                         name="Youtube Clone"
                         href="https://clone-youtube-app.vercel.app/"
                       >
@@ -22,10 +34,22 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
+                        rel="noreferrer"
+                        target="_blank"
                         name="Widgets App"
                         href="https://widgets-ismail.vercel.app/"
                       >
                         Widgets App
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        name="Expenses App"
+                        href="https://expensess.netlify.app/"
+                      >
+                        Expenses App
                       </a>
                     </li>
                   </ul>
@@ -80,6 +104,8 @@ const Footer = () => {
                 <ul style={{ listStyleType: "none" }} className="list-inline">
                   <li className="p-3 list-inline-item">
                     <a
+                      rel="noreferrer"
+                      target="_blank"
                       title="LinkedIn"
                       href="https://www.linkedin.com/in/ismail-harmanda/"
                     >
@@ -87,12 +113,19 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="p-3 list-inline-item">
-                    <a title="GitHub" href="https://github.com/ismailharmanda">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      title="GitHub"
+                      href="https://github.com/ismailharmanda"
+                    >
                       <i className="fab fa-github fa-3x"></i>
                     </a>
                   </li>
                   <li className="p-3 list-inline-item">
                     <a
+                      rel="noreferrer"
+                      target="_blank"
                       title="Twitter"
                       href="https://twitter.com/ismail_harmanda"
                     >

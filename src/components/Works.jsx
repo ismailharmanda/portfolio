@@ -19,7 +19,12 @@ const Works = () => {
         <div className="d-flex row align-items-center justify-content-around">
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
-              <a href="https://case-ser.netlify.app/" alt="Ser Danışmanlık">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://case-ser.netlify.app/"
+                alt="Ser Danışmanlık"
+              >
                 <img
                   src={serdanismanlik}
                   className="card-img-top"
@@ -36,6 +41,8 @@ const Works = () => {
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
               <a
+                rel="noreferrer"
+                target="_blank"
                 href="https://clone-youtube-app.vercel.app/"
                 alt="Youtube Clone App"
               >
@@ -55,7 +62,12 @@ const Works = () => {
           </div>
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
-              <a href="https://widgets-ismail.vercel.app/" alt="Widgets App">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://widgets-ismail.vercel.app/"
+                alt="Widgets App"
+              >
                 <img src={widgets} className="card-img-top" alt="widgets" />
               </a>
               <div className="card-body">
@@ -68,7 +80,12 @@ const Works = () => {
           </div>
           <div className="p-1 col-md-6 col-12">
             <div className="card text-dark fw-bold">
-              <a href="https://expensess.netlify.app/" alt="Expenses App">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://expensess.netlify.app/"
+                alt="Expenses App"
+              >
                 <img src={expenses} className="card-img-top" alt="..." />
               </a>
               <div className="card-body">
