@@ -3,6 +3,7 @@ import youtubeclone from "../img/youtubeclone.gif";
 import widgets from "../img/widgets.gif";
 import expenses from "../img/Expenses.gif";
 import serdanismanlik from "../img/serdanismanlik.gif";
+import foodApp from "../img/foodApp.gif";
 
 const Works = () => {
   return (
@@ -91,6 +92,23 @@ const Works = () => {
               <div className="card-body">
                 <p className="card-text text-center">
                   An application to keep track of spending expenses via React.js
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="p-1 col-md-6 col-12">
+            <div className="card text-dark fw-bold">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://food-order-application.netlify.app/"
+                alt="Food Order App"
+              >
+                <img src={foodApp} className="card-img-top" alt="..." />
+              </a>
+              <div className="card-body">
+                <p className="card-text text-center">
+                  An application for ordering food via React.js
                 </p>
               </div>
             </div>

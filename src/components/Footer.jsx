@@ -52,6 +52,16 @@ const Footer = () => {
                         Expenses App
                       </a>
                     </li>
+                    <li>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        name="Food Order App"
+                        href="https://food-order-application.netlify.app/"
+                      >
+                        Food Order App
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
