@@ -1,5 +1,7 @@
 import React from "react";
 
+import profilePhoto from "../img/veribox1.png"
+
 const About = () => {
   return (
     <div className="row">
@@ -19,11 +21,7 @@ const About = () => {
                 </p>
               </div>
               <div className="col-lg-3 justify-content-center text-center">
-                <embed
-                  src="https://docdro.id/bnfgb2j"
-                  width="315px"
-                  height="400px"
-                />
+                <img style={{width:"100%"}} src={profilePhoto} />
               </div>
             </div>
           </div>
